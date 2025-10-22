@@ -18,6 +18,7 @@ print("Alice's first character is:", name[0])
 print("Alice's last character is:", name[-1])
 print("Substring from index 1 to 3:", name[1:4])
 print("Alice from the 3rd character to the end:", name[2:])
+print("Alice excluding the first and last character:", name[1:-1])
 print("Alice string copy:", name[:])
 
 surname = "Smith"

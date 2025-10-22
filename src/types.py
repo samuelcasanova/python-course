@@ -15,3 +15,13 @@ print("bool(0):", bool(0))
 print("bool(""):", bool(""))
 print("bool([]):", bool([]))
 print("bool(None):", bool(None))
+
+print("Truthy values:")
+print("bool(1):", bool(1))
+print("bool(\"False\"):", bool("False"))
+print("bool(\"non-empty\"):", bool("non-empty"))
+print("bool([1, 2, 3]):", bool([1, 2, 3]))
+
+print("Comparing different types:")
+print("1 == '1':", 1 == "1")
+print("1 is '1':", 1 is "1")

@@ -13,3 +13,6 @@ python3 ./src/strings.py
 
 echo -e "\n***********\nPerforming math operations..."
 python3 ./src/math.py
+
+echo -e "\n***********\nUsing code blocks..."
+python3 ./src/code_blocks.py
