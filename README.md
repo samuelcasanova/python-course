@@ -1,16 +1,13 @@
 # Python Course
 
-This repository contains materials and exercises for learning Python programming. The course is designed to help beginners get started with Python programming through practical examples and hands-on exercises.
-
-## Repository Structure
-
-- `basics.py`: Contains basic Python programming concepts and examples
-- `run.sh`: Shell script to execute the Python examples
+This repository contains some code seen in introductory Python courses:
+- Introduction: https://www.youtube.com/watch?v=K5KVEU3aaeQ
+- Intermediate: https://www.youtube.com/watch?v=HGOBQPFzWKo
 
 ## Prerequisites
 
+- Bash
 - Python 3.x installed on your system
-- Basic understanding of command line operations
 
 ## Getting Started
 
@@ -25,10 +22,6 @@ cd python-course
 ./run.sh
 ```
 
-## License
+## Contact
 
-This project is open source and available under the MIT License.
-
-## Contributing
-
-Feel free to submit issues and enhancement requests.
+Linkedin: https://www.linkedin.com/in/samuelcasanova/
