@@ -1,12 +1,15 @@
 #!/bin/bash
-echo "Running Python basic prints..."
+echo -e "\n***********\nRunning Python basic prints..."
 python3 ./src/basics.py
 
-echo "Using types..."
+# echo -e "\n***********\nHandling user input..."
+# python3 ./src/input.py
+
+echo -e "\n***********\nUsing types..."
 python3 ./src/types.py
 
-echo "Working with strings..."
+echo -e "\n***********\nWorking with strings..."
 python3 ./src/strings.py
 
-echo "Performing math operations..."
+echo -e "\n***********\nPerforming math operations..."
 python3 ./src/math.py
