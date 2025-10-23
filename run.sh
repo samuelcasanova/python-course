@@ -16,3 +16,6 @@ python3 ./src/math.py
 
 echo -e "\n***********\nUsing code blocks..."
 python3 ./src/code_blocks.py
+
+echo -e "\n***********\nDefining and calling functions..."
+python3 ./src/functions.py
