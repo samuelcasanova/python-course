@@ -1,0 +1,31 @@
+list = ["apple", "banana", "cherry"]
+
+print("Original list:", list)
+print("List length:", len(list))
+print("First element:", list[0])
+print("Last element:", list[-1])
+print("Assert banana is in the list:", "banana" in list)
+list.append("lemon")
+print("List after appending lemon:", list)
+list.remove("banana")
+print("List after removing banana:", list)
+list.insert(1, "blueberry")
+print("List after inserting blueberry at index 1:", list)
+list.pop()
+print("List after popping the last element:", list)
+list.reverse()
+print("Reversed list:", list)
+new_sorted_list = sorted(list)
+print("Sorted list, does not mutate the original one:", new_sorted_list)
+list.sort()
+print("Sorted list, mutates the original one:", list)
+new_concatenated_list = list + ["orange", "grape"]
+print("Concatenated list:", new_concatenated_list)
+sliced_list = list[1:3]
+print("Sliced list from index 1 to 3:", sliced_list)
+copied_list = list.copy()
+print("Copied list:", copied_list)
+mapped_list = [str.upper(i) for i in list]
+print("Mapped list with upper case:", mapped_list)
+list.clear()
+print("List after clearing all elements:", list)
