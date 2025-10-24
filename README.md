@@ -19,7 +19,8 @@ cd python-course
 
 2. Run the examples:
 ```bash
-./run.sh
+./run-basic.sh
+./run-advanced.sh
 ```
 
 ## Contact
