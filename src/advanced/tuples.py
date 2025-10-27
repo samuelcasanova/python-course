@@ -1,4 +1,4 @@
-fruit_tuple = ("apple", 28, "fruit")
+fruit_tuple = ("apple", 28, "fruit", True)
 print("Tuple:", fruit_tuple)
 print("Tuple length:", len(fruit_tuple))
 print("First element:", fruit_tuple[0])
@@ -6,6 +6,5 @@ print("Last element:", fruit_tuple[-1])
 tuple_from_a_list = tuple(["banana", 42, "fruit"])
 print("Tuple created from a list:", tuple_from_a_list)
 print("Asserting 'apple' is in the tuple:", "apple" in fruit_tuple)
-
-
-minute 20
+name, weight, *rest = fruit_tuple
+print("Destructuring a tuple:", name, weight, rest)
