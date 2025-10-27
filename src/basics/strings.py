@@ -26,3 +26,9 @@ print("Formatted string with expressions:", f"{name} {surname} and the number { 
 
 print("Using string methods:")
 print(" this is a sample text ".upper().lower().strip().capitalize().ljust(20))
+
+print("Checking substring presence:", "Ali" in name)
+print("Checking substring presence at the beginning:", name.startswith("Ali"))
+print("Replacing substring:", name.replace("A", "E"))
+print("Splitting string into words:", "one two three".split(" "))
+print("Joining list into string:", " ".join(["one", "two", "three"]))
