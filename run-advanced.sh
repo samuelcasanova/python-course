@@ -10,3 +10,6 @@ python3 ./src/advanced/dictionaries.py
 
 echo -e "\n***********\nWorking with sets..."
 python3 ./src/advanced/sets.py
+
+echo -e "\n***********\nWorking with collections..."
+python3 ./src/advanced/special_collections.py

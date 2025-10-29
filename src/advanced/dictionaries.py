@@ -1,4 +1,4 @@
-dictionary = { "key": "value", "number": 42, "list": [1, 2, 3] }
+dictionary = {"key": "value", "number": 42, "list": [1, 2, 3]}
 print("Getting a dictionary value:", dictionary["key"])
 dictionary["new_key"] = "new_value"
 dictionary["number"] += 1
@@ -17,5 +17,5 @@ for key, value in dictionary.items():
 dictionary_copy = dictionary.copy()
 print("Copied dictionary:", dictionary_copy)
 print("Merging another dictionary:")
-dictionary.update({ "new_key": "new_value", "number": 100 })
+dictionary.update({"new_key": "new_value", "number": 100})
 print("Merged dictionary:", dictionary)
