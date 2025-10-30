@@ -13,3 +13,9 @@ python3 ./src/advanced/sets.py
 
 echo -e "\n***********\nWorking with collections..."
 python3 ./src/advanced/special_collections.py
+
+echo -e "\n***********\nWorking with lambdas..."
+python3 ./src/advanced/lambdas.py
+
+echo -e "\n***********\nWorking with exceptions..."
+python3 ./src/advanced/exceptions.py
