@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 120
+max-doc-length = 100
+statistics = True
+exclude =
+    *.pyc,
+    *__pycache__*,
+    static,
+    templates,
+    *test*
+ignore=WPS110,WPS114,WPS212,WPS214,WPS215,WPS226,WPS300,WPS305,WPS306,WPS323,WPS347,WPS350,WPS358,WPS407,WPS501,WPS504,WPS529,WPS602,WPS605,C812,C813,C814,C815,C816,D100,D101,D102,D107,D200,D205,D400,D401,I001,P101,Q000,S605,D104,D103,WPS115,WPS600,I005
+strictness=long
+

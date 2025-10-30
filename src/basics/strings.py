@@ -22,7 +22,7 @@ print("Alice excluding the first and last character:", name[1:-1])
 print("Alice string copy:", name[:])
 
 surname = "Smith"
-print("Formatted string with expressions:", f"{name} {surname} and the number { 1 + 2 + 3 }")
+print("Formatted string with expressions:", f"{name} {surname} and the number {1 + 2 + 3}")
 
 print("Using string methods:")
 print(" this is a sample text ".upper().lower().strip().capitalize().ljust(20))
