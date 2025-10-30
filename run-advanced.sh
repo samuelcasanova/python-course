@@ -19,3 +19,6 @@ python3 ./src/advanced/lambdas.py
 
 echo -e "\n***********\nWorking with exceptions..."
 python3 ./src/advanced/exceptions.py
+
+echo -e "\n***********\nWorking with logging..."
+python3 ./src/advanced/logging_messages.py
