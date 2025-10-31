@@ -22,3 +22,6 @@ python3 ./src/advanced/exceptions.py
 
 echo -e "\n***********\nWorking with logging..."
 python3 ./src/advanced/logging_messages.py
+
+echo -e "\n***********\nWorking with JSON handling..."
+python3 ./src/advanced/json_objects.py
