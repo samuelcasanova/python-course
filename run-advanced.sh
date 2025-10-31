@@ -25,3 +25,6 @@ python3 ./src/advanced/logging_messages.py
 
 echo -e "\n***********\nWorking with JSON handling..."
 python3 ./src/advanced/json_objects.py
+
+echo -e "\n***********\nWorking with random values..."
+python3 ./src/advanced/randoms.py
