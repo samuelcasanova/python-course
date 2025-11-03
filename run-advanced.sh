@@ -28,3 +28,9 @@ python3 ./src/advanced/json_objects.py
 
 echo -e "\n***********\nWorking with random values..."
 python3 ./src/advanced/randoms.py
+
+echo -e "\n***********\nWorking with decorators..."
+python3 ./src/advanced/decorators.py
+
+echo -e "\n***********\nWorking with generators..."
+python3 ./src/advanced/generators.py
