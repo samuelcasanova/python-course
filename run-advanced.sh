@@ -34,3 +34,6 @@ python3 ./src/advanced/decorators.py
 
 echo -e "\n***********\nWorking with generators..."
 python3 ./src/advanced/generators.py
+
+echo -e "\n***********\nWorking with multi-processing..."
+python3 ./src/advanced/multi_processing.py
