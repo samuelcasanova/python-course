@@ -32,3 +32,5 @@ print("Checking substring presence at the beginning:", name.startswith("Ali"))
 print("Replacing substring:", name.replace("A", "E"))
 print("Splitting string into words:", "one two three".split(" "))
 print("Joining list into string:", " ".join(["one", "two", "three"]))
+
+print("Repeating string:", "ABC" * 10)

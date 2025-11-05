@@ -19,3 +19,5 @@ print("Copied dictionary:", dictionary_copy)
 print("Merging another dictionary:")
 dictionary.update({"new_key": "new_value", "number": 100})
 print("Merged dictionary:", dictionary)
+new_dictionary = {**dictionary, **{"additional_key": "additional_value"}}
+print("Another merging technique:", new_dictionary)

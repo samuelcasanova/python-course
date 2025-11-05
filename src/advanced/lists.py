@@ -27,5 +27,8 @@ copied_list = list.copy()
 print("Copied list:", copied_list)
 mapped_list = [str.upper(i) for i in list]
 print("Mapped list with upper case:", mapped_list)
+print("Repeating list 2 times:", [list * 2])
+first, *rest, last = list
+print("Destructured list, rest and last element:", first, rest, last)
 list.clear()
 print("List after clearing all elements:", list)
