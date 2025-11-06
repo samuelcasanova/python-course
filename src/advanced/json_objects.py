@@ -10,13 +10,13 @@ personObject = {
 personJSON = json.dumps(personObject, indent=4)
 print("JSON Object:\n", personJSON)
 
-with open("person.json", "w") as jsonFile:
+with open("../data/person.json", "w") as jsonFile:
     json.dump(personObject, jsonFile, indent=4)
 
 personObjectReparsed = json.loads(personJSON)
 print("\nRe-parsed Object:", personObjectReparsed)
 
-with open("person.json", "r") as jsonFile:
+with open("../data/person.json", "r") as jsonFile:
     personFromFile = json.load(jsonFile)
     print("\nObject loaded from file:", personFromFile)
 

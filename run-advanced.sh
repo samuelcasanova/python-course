@@ -37,3 +37,9 @@ python3 ./src/advanced/generators.py
 
 echo -e "\n***********\nWorking with multi-processing..."
 python3 ./src/advanced/multi_processing.py
+
+echo -e "\n***********\nWorking with copying techniques..."
+python3 ./src/advanced/copying.py
+
+echo -e "\n***********\nWorking with context managers..."
+python3 ./src/advanced/context_managers.py

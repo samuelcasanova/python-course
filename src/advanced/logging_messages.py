@@ -10,7 +10,7 @@ stream_handler.setLevel(logging.WARNING)
 stream_formatter = logging.Formatter('%(name)s - %(levelname)s - FROM_STREAM - %(message)s')
 stream_handler.setFormatter(stream_formatter)
 
-file_handler = logging.FileHandler('logging_messages.log')
+file_handler = logging.FileHandler('../data/logging_messages.log')
 file_handler.setLevel(logging.ERROR)
 file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - FROM_FILE - %(message)s',
                                    datefmt='%Y-%m-%d %H:%M:%S')
